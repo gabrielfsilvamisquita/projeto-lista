@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <!--Tela de login-->
+        <div class="fundo" id="login">
+            <!--inputs-->
+            <div class="organizar"><input id="usuario" type="text" placeholder="usuário"></div>
+            <div class="organizar"><input id="senha" type="password" placeholder="senha"></div>
+            <!--botoes-->
+            <div class="organizar"><button id="btEntrar" class="botao destaque">Entrar</button></div>
+            <div class="organizar"><button id="telaCadastro"  class="botao">Cadastrar</button></div>
+        </div>
+        <!--Tela de cadastro-->
+        <div class="fundo" id="cadastro">
+            <!--inputs-->
+            <div class="organizar"><input id="usuarioCad" type="text" placeholder="usuário"></div>
+            <div class="organizar"><input id="senhaCad" type="password" placeholder="senha"></div>
+            <div class="organizar"><input id="csenha" type="password" placeholder="confirmar senha"></div>
+            <!--botao-->
+            <div class="organizar"><button id="btCadastrar" class="botao destaque">Cadastrar</button></div>
+            <div class="organizar"><button id="telaLogin" class="botao">Entrar</button></div>
+        </div>
+    </main>
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

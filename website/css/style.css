@@ -1,0 +1,35 @@
+:root{ /* Variaveis*/
+    --cor01:#7FC8EB;
+    --cor02:#79BEDF;
+    --cor03:#6AA8C4;
+    --cor04:#55879E;
+    --cor05:#33515E;
+}
+body{ /* Corpo */
+    background-attachment: fixed;
+    background-image: linear-gradient(45deg, var(--cor04), var(--cor05));
+}
+.fundo{ /* Fundo das divs de login/cadastro */
+    background: linear-gradient(45deg, #fff, #eceaea);
+    max-width: 350px;
+    margin: 35px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0000009c;
+}
+#cadastro{ /* Tela de Cadastro */
+    display: none;
+}
+.organizar{ /* Espaçamento entre inputs/botoes */
+    margin: 12px 0px;
+}
+input{ /* Inputfields */
+    width: 80%;
+    padding: 5px;
+    border: 2px solid var(--cor04);
+    border-radius: 5px;
+}
+.botao{ /* Botoes */
+    width: 100px;
+}
